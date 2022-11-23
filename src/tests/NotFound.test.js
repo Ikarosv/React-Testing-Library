@@ -13,7 +13,7 @@ describe('Testa o componente not found', () => {
     expect(title).toBeInTheDocument();
   });
 
-  test('TEsta se a imagem que aparece está correta', () => {
+  test('Testa se a imagem que aparece está correta', () => {
     render(<NotFound />);
 
     const image = screen.getByRole('img');
